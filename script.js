@@ -18,8 +18,8 @@ for (var i = 0; i < 3000; i++) {
   blackCheck.style.backgroundColor = 'black';
 
   if (i % 2 == 0) {
-    body.appendChild(blackBox);
+    body.appendChild(blackCheck);
   } else {
-    body.appendChild(redBox);
+    body.appendChild(redCheck);
   }
 };
